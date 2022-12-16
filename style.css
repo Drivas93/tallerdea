@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 1000;
+}
+    header nav img{
+        margin: 8px;
+        height: 40px;
+    }
+    header nav div div ul li:hover {
+        font-weight: 600; }
+
+.mainContacto{
+    height: 100vh;
+}     
+    .mainContacto div{
+        position: relative;
+        top: 82px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        line-height: 14px;
+        margin: 30px 30px 30px 30px;   
+        padding: 10px;
+        flex-wrap: wrap;
+        width: 50vw;
+    }
+    .mainContacto img{
+        height: 50vh;
+        width: fit-content;
+    }
+    @media (max-width:1200px){
+        .mainContacto div{
+        margin: 30px 30px 30px 30px;
+        }
+    }
+    @media (max-width:950px){
+        .mainContacto img{
+        height: fit-content;
+        width: 80vw;
+        }
+    }
+    .mainContacto div h1{
+        font-size: 1.1em;
+    }
+    .mainContacto div p{
+        font-size: .8em;
+    }
+    #carouselExampleControls{
+        display: none;
+        z-index: 0;
+    }
+    #carouselExampleControls div div img{
+        height: 100vh;
+        object-fit: cover;
+    }
+    #carouselExampleFade {
+            z-index: 0;
+        }
+    #carouselExampleFade div div img{
+        object-fit: cover;
+        height: 100vh;
+    }
+    @media (max-width:1000px){
+        #carouselExampleControls{
+            display: flex;
+        }
+        #carouselExampleFade{
+            display: none;
+        }
+    }
+
+
+.footer-contenedor {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    font-size: 10px;
+    z-index: 1000;
+}
+
+    .links-rrss {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-contenedor span {
+    margin-right: 20vw;
+    margin-left: 10px;
+    }
+    .footer-contenedor img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    }
+    @media (max-width:600px){
+          .footer-contenedor {
+        font-size: 8px;
+        padding: 8px;
+        position: relative;
+        bottom: 0px;
+        }
+        .footer-contenedor img {
+        width: 10px;
+        height: 10px;
+        margin: 7px;
+        }
+  
+    }
+    .footer-contenedor img:hover {
+        scale:120%;
+    }
