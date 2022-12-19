@@ -16,7 +16,7 @@ header {
     header nav div div ul li:hover {
         font-weight: 600; 
     }
-    main h1 {
+    .mainIndex h1 {
         color: #ffffff;
         }
 .mainContacto{
@@ -33,21 +33,20 @@ header {
         margin: 30px 30px 30px 30px;   
         padding: 10px;
         flex-wrap: wrap;
-        width: 50vw;
+
     }
     .mainContacto img{
-        height: 50vh;
-        width: fit-content;
+        height: fit-content;
+        width: 40vw;
     }
     @media (max-width:1200px){
         .mainContacto div{
         margin: 30px 30px 30px 30px;
         }
     }
-    @media (max-width:950px){
+    @media (max-height:600px){
         .mainContacto img{
-        height: fit-content;
-        width: 80vw;
+        display: none;
         }
     }
     .mainContacto div h1{
