@@ -14,8 +14,11 @@ header {
         height: 40px;
     }
     header nav div div ul li:hover {
-        font-weight: 600; }
-
+        font-weight: 600; 
+    }
+    main h1 {
+        color: #ffffff;
+        }
 .mainContacto{
     height: 100vh;
 }     
