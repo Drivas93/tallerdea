@@ -60,7 +60,7 @@ header {
         z-index: 0;
     }
     #carouselExampleControls div div img{
-        height: 100vh;
+        height: 97vh;
         object-fit: cover;
     }
     #carouselExampleFade {
@@ -68,9 +68,9 @@ header {
         }
     #carouselExampleFade div div img{
         object-fit: cover;
-        height: 100vh;
+        height: 96.5vh;
     }
-    @media (max-width:1000px){
+    @media (max-width:1023px){
         #carouselExampleControls{
             display: flex;
         }
